@@ -14,25 +14,25 @@ get_header();
         </div>
         <div class="screens">
             <div class="screen-img">
-              <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
             </div>
             <div class="screen-img">
-              <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
             </div>
             <div class="screen-img">
-              <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
             </div>
             <div class="screen-img">
-              <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
             </div>
             <div class="screen-img">
-              <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
             </div>
             <div class="screen-img">
-              <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
             </div>
             <div class="screen-img">
-              <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
             </div>
         </div>
     </section>
@@ -46,13 +46,13 @@ get_header();
             
             <div class="container">
                 <div class="screens-img">
-                <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
                 </div>
                 <div class="screens-img">
-                <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
                 </div>
                 <div class="screens-img">
-                <img src="http://localhost/demo/wp-content/uploads/2020/11/apps5.png"/>
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
                 </div>
             </div>
             <div class="overlay"></div>
