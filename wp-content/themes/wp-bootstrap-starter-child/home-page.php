@@ -4,55 +4,56 @@
  */
 
 get_header();
+$id = $post->ID;
 ?>
 
 
     <section id="challange">
         <div class="container">
-            <h2 class="text-center sub-title">The Challenge</h2>
-            <p class="text-center">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book</p>
+            <h2 class="text-center sub-title"><?php echo get_field('challange_title', $id); ?></h2>
+            <p class="text-center"><?php echo get_field('challange_text', $id); ?></p>
         </div>
         <div class="screens">
             <div class="screen-img">
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo get_field('challange_image1', $id); ?>"/>
             </div>
             <div class="screen-img">
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo get_field('challange_image2', $id); ?>"/>
             </div>
             <div class="screen-img">
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo get_field('challange_image3', $id); ?>"/>
             </div>
             <div class="screen-img">
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo get_field('challange_image4', $id); ?>"/>
             </div>
             <div class="screen-img">
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo get_field('challange_image5', $id); ?>"/>
             </div>
             <div class="screen-img">
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo get_field('challange_image6', $id); ?>"/>
             </div>
             <div class="screen-img">
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+              <img src="<?php echo get_field('challange_image7', $id); ?>"/>
             </div>
         </div>
     </section>
 
     <section id="solution">
         <div class="container">
-            <h2 class="text-center sub-title">The Solution</h2>
-            <p class="text-center">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book</p>
+            <h2 class="text-center sub-title"><?php echo get_field('solution_title', $id); ?></h2>
+            <p class="text-center"><?php echo get_field('solution_text', $id); ?></p>
         </div>
         <div class="full-width">
             
             <div class="container">
                 <div class="screens-img">
-                <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+                <img src="<?php echo get_field('solution_image1', $id); ?>"/>
                 </div>
                 <div class="screens-img">
-                <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+                <img src="<?php echo get_field('solution_image2', $id); ?>"/>
                 </div>
                 <div class="screens-img">
-                <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/11/apps5.png"/>
+                <img src="<?php echo get_field('solution_image3', $id); ?>"/>
                 </div>
             </div>
             <div class="overlay"></div>
@@ -68,13 +69,7 @@ get_header();
             
         <div class="container">
             <ul>
-                <li><i class="fas fa-angle-double-right"></i> Lorem ipsum, or lipsum as it is sometimes known</li>
-                <li><i class="fas fa-angle-double-right"></i> Lorem ipsum, or lipsum as it is sometimes known</li>
-                <li><i class="fas fa-angle-double-right"></i> Lorem ipsum, or lipsum as it is sometimes known</li>
-                <li><i class="fas fa-angle-double-right"></i> Lorem ipsum, or lipsum as it is sometimes known</li>
-                <li><i class="fas fa-angle-double-right"></i> Lorem ipsum, or lipsum as it is sometimes known</li>
-                <li><i class="fas fa-angle-double-right"></i> Lorem ipsum, or lipsum as it is sometimes known</li>
-                <li><i class="fas fa-angle-double-right"></i> Lorem ipsum, or lipsum as it is sometimes known</li>
+            <?php echo get_field('key_solution', $id); ?>
             </ul>
         </div>
     </section>
